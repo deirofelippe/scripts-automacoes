@@ -20,7 +20,7 @@ if __name__ == "__main__":
    transacoes = """
    teste
    """
-   qtd_zeros = 6
+   qtd_zeros = 20
    hash_anterior = "000000000000000000076ff17d9319d3a6b5ef338ca150e2e0127daf6525754a"
    resultado = minerar(num_bloco, transacoes, hash_anterior, qtd_zeros)
    print(resultado)
