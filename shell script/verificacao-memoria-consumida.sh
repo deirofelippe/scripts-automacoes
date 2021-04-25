@@ -12,7 +12,7 @@ echo $relacao_memoria_atual_total
 
 if [ $relacao_memoria_atual_total -gt 50 ]
 then
-mail -s "Consumo de memória acima do limite" seergiio.felippe@gmail.com<<del
+mail -s "Consumo de memória acima do limite" sergiofelippe.teste@gmail.com<<del
 O consumo de memória está acima do limite que foi especificado.
 Atualmente o consumo é de $(free -h --si | grep -i mem | awk '{ print $3 }').
 del

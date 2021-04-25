@@ -8,7 +8,7 @@ resposta_http=$(curl --write-out %{http_code} --silent --output /dev/null http:/
 echo $resposta_http
 if [ $resposta_http -ne 200 ]
 then
-mail -s "Problema no servidor" seergiio.felippe@gmail.com<<delimitador
+mail -s "Problema no servidor" sergiofelippe.teste@gmail.com<<delimitador
 	Houve um problema no servidor apache
 delimitador
 echo "email enviado"
