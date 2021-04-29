@@ -1,0 +1,8 @@
+alias asm-comp="sh /home/boibandido/Documentos/scripts-automacoes/meus-scripts/asm-comp.sh"
+
+alias yt-download="bash /home/boibandido/Documentos/scripts-automacoes/meus-scripts/yt-dw.sh"
+
+
+
+
+
