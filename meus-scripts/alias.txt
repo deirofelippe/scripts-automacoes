@@ -1,6 +1,6 @@
 alias asm-comp="sh /home/boibandido/Documentos/scripts-automacoes/meus-scripts/asm-comp.sh"
 
-alias yt-download="bash /home/boibandido/Documentos/scripts-automacoes/meus-scripts/yt-dw.sh"
+alias yt-download="python3 /home/boibandido/Documentos/scripts-automacoes/meus-scripts/yt-download.py"
 
 
 
